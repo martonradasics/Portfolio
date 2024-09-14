@@ -1,0 +1,87 @@
+.box {
+    background-color: #005689;
+    color: #ff895d;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+p {
+    font-size: 2.5rem;
+}
+h1 {
+    font-size: 4rem;
+}
+.buttons {
+    font-size: 2rem;
+    border: 2px solid transparent; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    transition: all 0.3s ease; 
+}
+
+/* HTML Button styling */
+#frst-btn {
+    background-color: transparent;
+    color: #e46161;
+    border-color: #e46161; 
+}
+
+#frst-btn:hover {
+    background-color: #e46161;
+    color: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* CSS Button styling */
+#scnd-btn {
+    background-color: transparent;
+    color: rgb(8, 224, 224);
+    border-color: #d5eeff;
+}
+
+#scnd-btn:hover {
+    background-color: #d5eeff;
+    color: #005689;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* JavaScript Button styling */
+#thrd-btn {
+    background-color: transparent;
+    color: #f8f398;
+    border-color: #f8f398;
+}
+
+#thrd-btn:hover {
+    background-color: #f8f398;
+    color: #5a5a5a;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* GitHub Button styling */
+#github-btn {
+    background-color: transparent;
+    color: #333333;
+    font-size: 2rem;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#github-btn:hover {
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
