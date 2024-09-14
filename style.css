@@ -1,6 +1,14 @@
+body {
+    background: linear-gradient(90deg, rgb(124, 217, 237) 0%, rgb(139, 102, 241) 100%);
+}
+
 .box {
-    background-color: #005689;
-    color: #ff895d;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(12px); 
+    border-radius: 15px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    color: #003366;;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 20px 50px;
@@ -9,11 +17,17 @@
     margin-right: 200px;
     margin-left: 200px;
 }
+
 p {
     font-size: 2.5rem;
+    margin-bottom: 1px;
 }
 h1 {
     font-size: 4rem;
+}
+li{
+    font-size: 1.5rem;
+    list-style-type: none;
 }
 .buttons {
     font-size: 2rem;
